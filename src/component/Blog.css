@@ -1,0 +1,48 @@
+/* blog.css */
+
+.blog-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns items to the left */
+  gap: 20px; /* Spacing between blog entries */
+  padding: 20px;
+}
+
+.blog-data > div {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 90%; /* Increased container size */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left; /* Left-aligns text within the container */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: auto; /* Adds spacing on the right */
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 10px 0;
+}
+
+button,
+.back-link {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #000; /* Button color changed to black */
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover,
+.back-link:hover {
+  background-color: #333; /* Darker shade for hover effect */
+}

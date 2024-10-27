@@ -1,0 +1,73 @@
+/* blogForm.css */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.field-container {
+  display: flex;
+  align-items: center; /* Aligns label and input in the center vertically */
+  margin-bottom: 10px;
+}
+
+.field-container label {
+  margin-right: 10px; /* Adds spacing between label and input */
+  font-size: 1.1em;
+  color: #555;
+  width: 120px; /* Fixed width to align labels */
+}
+
+.field-container input[type="text"],
+.field-container textarea {
+  flex: 1; /* Makes input/textarea take up remaining space */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.field-container textarea {
+  height: 100px;
+}
+
+button,
+.back-button {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover,
+.back-button:hover {
+  background-color: #333;
+}
+
+.back-button {
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
