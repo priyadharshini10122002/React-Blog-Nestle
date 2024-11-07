@@ -4,6 +4,7 @@ React Blog - Nestle is a blog application built using React, providing a minimal
 # Structure
 
 React-Blog-Nestle
+
 ├── public
 │   ├── index.html          
 ├── src
