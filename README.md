@@ -15,11 +15,11 @@ React-Blog-Nestle
 │   └── index.js            
 └── README.md                
 
-components: Houses individual components such as the blog list and blog details views.
-pages: Contains primary pages like Home, BlogDetails, and CreateBlog.
-context: Includes context files for managing application state across components.
-App.js: Main component where routing between pages is defined.
-index.js: Entry point of the React app, rendering App.js into the DOM.
+-  components: Houses individual components such as the blog list and blog details views.
+-  pages: Contains primary pages like Home, BlogDetails, and CreateBlog.
+-  context: Includes context files for managing application state across components.
+-  App.js: Main component where routing between pages is defined.
+-  index.js: Entry point of the React app, rendering App.js into the DOM.
 
 # Technologies Used
   React: For building interactive user interfaces.
