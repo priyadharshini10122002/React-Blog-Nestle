@@ -22,6 +22,6 @@ React-Blog-Nestle
 -  index.js: Entry point of the React app, rendering App.js into the DOM.
 
 # Technologies Used
-  React: For building interactive user interfaces.
-  React Router: For enabling navigation between pages.
-  CSS: For styling components and maintaining responsive design.
+-  React: For building interactive user interfaces.
+-  React Router: For enabling navigation between pages.
+-   SS: For styling components and maintaining responsive design.
